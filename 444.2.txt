@@ -1,0 +1,43 @@
+PIN Tool Info:
+	Max Number of Threads Supported: 130
+
+
+Workload Info:
+	Total Number of Hardware Threads: 1
+	Total Number of Application Threads: 1
+	Executing application to completion
+
+Statistics: 
+	Defined Simulation Regions: 1
+	Log Every 100 Million Instructions
+	Reset Sharing Stats: 0
+
+Caches  -- Experiment: 0
+All Latencies Are Load-To-Use Latencies
+
+	[Level 0] FLC iCache Size: 32KB  -*- Assoc: 4 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 0
+	[Level 0] FLC  Cache Size: 32KB  -*- Assoc: 8 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 0
+
+	[Level 1] MLC  Cache Size: 256KB  -*- Assoc: 8 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 10
+
+	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- Contestant Replacement Policy -- -*- Lat: 30
+
+	[Level 3] MEM  Latency: 200
+
+Opened Binary Trace File: ../traces/444.namd.out.trace.gz
+Opened Dep File: ../traces/444.namd.out.dep.gz
+
+[CMP$im] Finished Requested Instruction Count 104034990  for App 0 at Time: 28485829
+
+
+Full Run Summary: (Global Instructions: 104034990)
+	Thread ID: 0 ICOUNT: 104034990 CYC: 28485830 CPI: 0.27381 Global Cycles: 28485830 LLC Misses: 11484
+
+
+Region of Interest Summary: 
+	Thread ID: 0 ICOUNT: 104034990 CYC: 28485829 CPI: 0.27381 Global Cycles: 28485830 LLC Misses: 11484
+
+
+real	1m29.082s
+user	1m28.860s
+sys	0m0.030s

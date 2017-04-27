@@ -20,24 +20,24 @@ All Latencies Are Load-To-Use Latencies
 
 	[Level 1] MLC  Cache Size: 256KB  -*- Assoc: 8 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 10
 
-	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 30
+	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- Contestant Replacement Policy -- -*- Lat: 30
 
 	[Level 3] MEM  Latency: 200
 
 Opened Binary Trace File: ../traces/434.zeusmp.out.trace.gz
 Opened Dep File: ../traces/434.zeusmp.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 103951560  for App 0 at Time: 47610435
+[CMP$im] Finished Requested Instruction Count 103951560  for App 0 at Time: 46922240
 
 
 Full Run Summary: (Global Instructions: 103951560)
-	Thread ID: 0 ICOUNT: 103951560 CYC: 47610436 CPI: 0.458006 Global Cycles: 47610436 LLC Misses: 239557
+	Thread ID: 0 ICOUNT: 103951560 CYC: 46922241 CPI: 0.451386 Global Cycles: 46922241 LLC Misses: 224814
 
 
 Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 103951560 CYC: 47610435 CPI: 0.458006 Global Cycles: 47610436 LLC Misses: 239557
+	Thread ID: 0 ICOUNT: 103951560 CYC: 46922240 CPI: 0.451386 Global Cycles: 46922241 LLC Misses: 224814
 
 
-real	1m33.513s
-user	1m33.160s
-sys	0m0.110s
+real	1m34.073s
+user	1m33.800s
+sys	0m0.060s

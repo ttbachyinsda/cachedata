@@ -20,24 +20,24 @@ All Latencies Are Load-To-Use Latencies
 
 	[Level 1] MLC  Cache Size: 256KB  -*- Assoc: 8 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 10
 
-	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 30
+	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- Contestant Replacement Policy -- -*- Lat: 30
 
 	[Level 3] MEM  Latency: 200
 
 Opened Binary Trace File: ../traces/416.gamess.out.trace.gz
 Opened Dep File: ../traces/416.gamess.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 109857040  for App 0 at Time: 34315859
+[CMP$im] Finished Requested Instruction Count 109857040  for App 0 at Time: 33416947
 
 
 Full Run Summary: (Global Instructions: 109857040)
-	Thread ID: 0 ICOUNT: 109857040 CYC: 34315860 CPI: 0.312368 Global Cycles: 34315860 LLC Misses: 157197
+	Thread ID: 0 ICOUNT: 109857040 CYC: 33416948 CPI: 0.304186 Global Cycles: 33416948 LLC Misses: 48053
 
 
 Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 109857040 CYC: 34315859 CPI: 0.312368 Global Cycles: 34315860 LLC Misses: 157197
+	Thread ID: 0 ICOUNT: 109857040 CYC: 33416947 CPI: 0.304186 Global Cycles: 33416948 LLC Misses: 48053
 
 
-real	1m35.872s
-user	1m35.450s
-sys	0m0.150s
+real	1m44.888s
+user	1m44.570s
+sys	0m0.070s

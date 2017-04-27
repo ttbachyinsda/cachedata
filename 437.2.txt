@@ -20,10 +20,24 @@ All Latencies Are Load-To-Use Latencies
 
 	[Level 1] MLC  Cache Size: 256KB  -*- Assoc: 8 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 10
 
-	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 30
+	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- Contestant Replacement Policy -- -*- Lat: 30
 
 	[Level 3] MEM  Latency: 200
 
 Opened Binary Trace File: ../traces/437.leslie3d.out.trace.gz
 Opened Dep File: ../traces/437.leslie3d.out.dep.gz
 
+[CMP$im] Finished Requested Instruction Count 108598282  for App 0 at Time: 162476305
+
+
+Full Run Summary: (Global Instructions: 108598282)
+	Thread ID: 0 ICOUNT: 108598282 CYC: 162476306 CPI: 1.49612 Global Cycles: 162476306 LLC Misses: 1569053
+
+
+Region of Interest Summary: 
+	Thread ID: 0 ICOUNT: 108598282 CYC: 162476305 CPI: 1.49612 Global Cycles: 162476306 LLC Misses: 1569053
+
+
+real	1m45.470s
+user	1m45.180s
+sys	0m0.060s

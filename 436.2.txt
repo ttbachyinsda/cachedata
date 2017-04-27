@@ -20,24 +20,24 @@ All Latencies Are Load-To-Use Latencies
 
 	[Level 1] MLC  Cache Size: 256KB  -*- Assoc: 8 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 10
 
-	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 30
+	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- Contestant Replacement Policy -- -*- Lat: 30
 
 	[Level 3] MEM  Latency: 200
 
 Opened Binary Trace File: ../traces/436.cactusADM.out.trace.gz
 Opened Dep File: ../traces/436.cactusADM.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 113865457  for App 0 at Time: 48137426
+[CMP$im] Finished Requested Instruction Count 113865457  for App 0 at Time: 41589590
 
 
 Full Run Summary: (Global Instructions: 113865457)
-	Thread ID: 0 ICOUNT: 113865457 CYC: 48137427 CPI: 0.422757 Global Cycles: 48137427 LLC Misses: 354355
+	Thread ID: 0 ICOUNT: 113865457 CYC: 41589591 CPI: 0.365252 Global Cycles: 41589591 LLC Misses: 324372
 
 
 Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 113865457 CYC: 48137426 CPI: 0.422757 Global Cycles: 48137427 LLC Misses: 354355
+	Thread ID: 0 ICOUNT: 113865457 CYC: 41589590 CPI: 0.365252 Global Cycles: 41589591 LLC Misses: 324372
 
 
-real	1m37.115s
-user	1m36.720s
-sys	0m0.030s
+real	1m37.851s
+user	1m37.550s
+sys	0m0.050s

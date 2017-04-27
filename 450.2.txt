@@ -1,0 +1,43 @@
+PIN Tool Info:
+	Max Number of Threads Supported: 130
+
+
+Workload Info:
+	Total Number of Hardware Threads: 1
+	Total Number of Application Threads: 1
+	Executing application to completion
+
+Statistics: 
+	Defined Simulation Regions: 1
+	Log Every 100 Million Instructions
+	Reset Sharing Stats: 0
+
+Caches  -- Experiment: 0
+All Latencies Are Load-To-Use Latencies
+
+	[Level 0] FLC iCache Size: 32KB  -*- Assoc: 4 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 0
+	[Level 0] FLC  Cache Size: 32KB  -*- Assoc: 8 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 0
+
+	[Level 1] MLC  Cache Size: 256KB  -*- Assoc: 8 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 10
+
+	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- Contestant Replacement Policy -- -*- Lat: 30
+
+	[Level 3] MEM  Latency: 200
+
+Opened Binary Trace File: ../traces/450.soplex.out.trace.gz
+Opened Dep File: ../traces/450.soplex.out.dep.gz
+
+[CMP$im] Finished Requested Instruction Count 60497953  for App 0 at Time: 21758801
+
+
+Full Run Summary: (Global Instructions: 60497953)
+	Thread ID: 0 ICOUNT: 60497953 CYC: 21758802 CPI: 0.359662 Global Cycles: 21758802 LLC Misses: 30782
+
+
+Region of Interest Summary: 
+	Thread ID: 0 ICOUNT: 60497953 CYC: 21758801 CPI: 0.359662 Global Cycles: 21758802 LLC Misses: 30782
+
+
+real	0m55.290s
+user	0m55.120s
+sys	0m0.030s

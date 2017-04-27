@@ -20,24 +20,24 @@ All Latencies Are Load-To-Use Latencies
 
 	[Level 1] MLC  Cache Size: 256KB  -*- Assoc: 8 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 10
 
-	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 30
+	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- Contestant Replacement Policy -- -*- Lat: 30
 
 	[Level 3] MEM  Latency: 200
 
 Opened Binary Trace File: ../traces/435.gromacs.out.trace.gz
 Opened Dep File: ../traces/435.gromacs.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 111463802  for App 0 at Time: 74042096
+[CMP$im] Finished Requested Instruction Count 111463802  for App 0 at Time: 69202731
 
 
 Full Run Summary: (Global Instructions: 111463802)
-	Thread ID: 0 ICOUNT: 111463802 CYC: 74042097 CPI: 0.66427 Global Cycles: 74042097 LLC Misses: 369497
+	Thread ID: 0 ICOUNT: 111463802 CYC: 69202732 CPI: 0.620854 Global Cycles: 69202732 LLC Misses: 306321
 
 
 Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 111463802 CYC: 74042096 CPI: 0.66427 Global Cycles: 74042097 LLC Misses: 369497
+	Thread ID: 0 ICOUNT: 111463802 CYC: 69202731 CPI: 0.620854 Global Cycles: 69202732 LLC Misses: 306321
 
 
-real	1m40.191s
-user	1m39.900s
-sys	0m0.050s
+real	1m41.272s
+user	1m41.010s
+sys	0m0.020s

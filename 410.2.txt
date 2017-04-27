@@ -20,7 +20,7 @@ All Latencies Are Load-To-Use Latencies
 
 	[Level 1] MLC  Cache Size: 256KB  -*- Assoc: 8 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 10
 
-	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 30
+	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- Contestant Replacement Policy -- -*- Lat: 30
 
 	[Level 3] MEM  Latency: 200
 
@@ -38,6 +38,6 @@ Region of Interest Summary:
 	Thread ID: 0 ICOUNT: 100767249 CYC: 25502946 CPI: 0.253088 Global Cycles: 25502947 LLC Misses: 2961
 
 
-real	1m33.569s
-user	1m33.210s
-sys	0m0.120s
+real	1m35.738s
+user	1m35.460s
+sys	0m0.080s
