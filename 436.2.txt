@@ -27,17 +27,17 @@ All Latencies Are Load-To-Use Latencies
 Opened Binary Trace File: ../traces/436.cactusADM.out.trace.gz
 Opened Dep File: ../traces/436.cactusADM.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 113865457  for App 0 at Time: 50384281
+[CMP$im] Finished Requested Instruction Count 113865457  for App 0 at Time: 48137426
 
 
 Full Run Summary: (Global Instructions: 113865457)
-	Thread ID: 0 ICOUNT: 113865457 CYC: 50384282 CPI: 0.44249 Global Cycles: 50384282 LLC Misses: 382949
+	Thread ID: 0 ICOUNT: 113865457 CYC: 48137427 CPI: 0.422757 Global Cycles: 48137427 LLC Misses: 354355
 
 
 Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 113865457 CYC: 50384281 CPI: 0.44249 Global Cycles: 50384282 LLC Misses: 382949
+	Thread ID: 0 ICOUNT: 113865457 CYC: 48137426 CPI: 0.422757 Global Cycles: 48137427 LLC Misses: 354355
 
 
-real	1m50.755s
-user	1m50.470s
-sys	0m0.040s
+real	1m37.115s
+user	1m36.720s
+sys	0m0.030s

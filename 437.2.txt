@@ -27,17 +27,3 @@ All Latencies Are Load-To-Use Latencies
 Opened Binary Trace File: ../traces/437.leslie3d.out.trace.gz
 Opened Dep File: ../traces/437.leslie3d.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 108598282  for App 0 at Time: 163577387
-
-
-Full Run Summary: (Global Instructions: 108598282)
-	Thread ID: 0 ICOUNT: 108598282 CYC: 163577388 CPI: 1.50626 Global Cycles: 163577388 LLC Misses: 1695183
-
-
-Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 108598282 CYC: 163577387 CPI: 1.50626 Global Cycles: 163577388 LLC Misses: 1695183
-
-
-real	1m45.683s
-user	1m45.360s
-sys	0m0.080s

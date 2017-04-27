@@ -27,17 +27,17 @@ All Latencies Are Load-To-Use Latencies
 Opened Binary Trace File: ../traces/433.milc.out.trace.gz
 Opened Dep File: ../traces/433.milc.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 104433837  for App 0 at Time: 120034918
+[CMP$im] Finished Requested Instruction Count 104433837  for App 0 at Time: 123147538
 
 
 Full Run Summary: (Global Instructions: 104433837)
-	Thread ID: 0 ICOUNT: 104433837 CYC: 120034919 CPI: 1.14939 Global Cycles: 120034919 LLC Misses: 1186270
+	Thread ID: 0 ICOUNT: 104433837 CYC: 123147539 CPI: 1.17919 Global Cycles: 123147539 LLC Misses: 1225286
 
 
 Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 104433837 CYC: 120034918 CPI: 1.14939 Global Cycles: 120034919 LLC Misses: 1186270
+	Thread ID: 0 ICOUNT: 104433837 CYC: 123147538 CPI: 1.17919 Global Cycles: 123147539 LLC Misses: 1225286
 
 
-real	1m59.029s
-user	1m58.620s
-sys	0m0.020s
+real	1m41.006s
+user	1m40.730s
+sys	0m0.040s

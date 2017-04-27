@@ -38,6 +38,6 @@ Region of Interest Summary:
 	Thread ID: 0 ICOUNT: 100767249 CYC: 25502946 CPI: 0.253088 Global Cycles: 25502947 LLC Misses: 2961
 
 
-real	1m39.014s
-user	1m38.710s
-sys	0m0.080s
+real	1m33.569s
+user	1m33.210s
+sys	0m0.120s

@@ -27,17 +27,17 @@ All Latencies Are Load-To-Use Latencies
 Opened Binary Trace File: ../traces/400.perlbench.out.trace.gz
 Opened Dep File: ../traces/400.perlbench.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 13796184  for App 0 at Time: 8868509
+[CMP$im] Finished Requested Instruction Count 13796184  for App 0 at Time: 9328222
 
 
 Full Run Summary: (Global Instructions: 13796184)
-	Thread ID: 0 ICOUNT: 13796184 CYC: 8868510 CPI: 0.642823 Global Cycles: 8868510 LLC Misses: 21045
+	Thread ID: 0 ICOUNT: 13796184 CYC: 9328223 CPI: 0.676145 Global Cycles: 9328223 LLC Misses: 23800
 
 
 Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 13796184 CYC: 8868509 CPI: 0.642823 Global Cycles: 8868510 LLC Misses: 21045
+	Thread ID: 0 ICOUNT: 13796184 CYC: 9328222 CPI: 0.676145 Global Cycles: 9328223 LLC Misses: 23800
 
 
-real	0m12.642s
-user	0m12.620s
-sys	0m0.000s
+real	0m12.758s
+user	0m12.700s
+sys	0m0.010s

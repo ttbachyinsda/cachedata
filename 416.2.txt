@@ -27,17 +27,17 @@ All Latencies Are Load-To-Use Latencies
 Opened Binary Trace File: ../traces/416.gamess.out.trace.gz
 Opened Dep File: ../traces/416.gamess.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 109857040  for App 0 at Time: 32981254
+[CMP$im] Finished Requested Instruction Count 109857040  for App 0 at Time: 34315859
 
 
 Full Run Summary: (Global Instructions: 109857040)
-	Thread ID: 0 ICOUNT: 109857040 CYC: 32981255 CPI: 0.30022 Global Cycles: 32981255 LLC Misses: 44685
+	Thread ID: 0 ICOUNT: 109857040 CYC: 34315860 CPI: 0.312368 Global Cycles: 34315860 LLC Misses: 157197
 
 
 Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 109857040 CYC: 32981254 CPI: 0.30022 Global Cycles: 32981255 LLC Misses: 44685
+	Thread ID: 0 ICOUNT: 109857040 CYC: 34315859 CPI: 0.312368 Global Cycles: 34315860 LLC Misses: 157197
 
 
-real	1m37.467s
-user	1m37.180s
-sys	0m0.070s
+real	1m35.872s
+user	1m35.450s
+sys	0m0.150s

@@ -27,17 +27,17 @@ All Latencies Are Load-To-Use Latencies
 Opened Binary Trace File: ../traces/434.zeusmp.out.trace.gz
 Opened Dep File: ../traces/434.zeusmp.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 103951560  for App 0 at Time: 46947971
+[CMP$im] Finished Requested Instruction Count 103951560  for App 0 at Time: 47610435
 
 
 Full Run Summary: (Global Instructions: 103951560)
-	Thread ID: 0 ICOUNT: 103951560 CYC: 46947972 CPI: 0.451633 Global Cycles: 46947972 LLC Misses: 224803
+	Thread ID: 0 ICOUNT: 103951560 CYC: 47610436 CPI: 0.458006 Global Cycles: 47610436 LLC Misses: 239557
 
 
 Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 103951560 CYC: 46947971 CPI: 0.451633 Global Cycles: 46947972 LLC Misses: 224803
+	Thread ID: 0 ICOUNT: 103951560 CYC: 47610435 CPI: 0.458006 Global Cycles: 47610436 LLC Misses: 239557
 
 
-real	1m49.708s
-user	1m49.380s
-sys	0m0.090s
+real	1m33.513s
+user	1m33.160s
+sys	0m0.110s

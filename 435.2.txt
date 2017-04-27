@@ -27,17 +27,17 @@ All Latencies Are Load-To-Use Latencies
 Opened Binary Trace File: ../traces/435.gromacs.out.trace.gz
 Opened Dep File: ../traces/435.gromacs.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 111463802  for App 0 at Time: 67744278
+[CMP$im] Finished Requested Instruction Count 111463802  for App 0 at Time: 74042096
 
 
 Full Run Summary: (Global Instructions: 111463802)
-	Thread ID: 0 ICOUNT: 111463802 CYC: 67744279 CPI: 0.607769 Global Cycles: 67744279 LLC Misses: 295220
+	Thread ID: 0 ICOUNT: 111463802 CYC: 74042097 CPI: 0.66427 Global Cycles: 74042097 LLC Misses: 369497
 
 
 Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 111463802 CYC: 67744278 CPI: 0.607769 Global Cycles: 67744279 LLC Misses: 295220
+	Thread ID: 0 ICOUNT: 111463802 CYC: 74042096 CPI: 0.66427 Global Cycles: 74042097 LLC Misses: 369497
 
 
-real	1m53.172s
-user	1m52.930s
-sys	0m0.020s
+real	1m40.191s
+user	1m39.900s
+sys	0m0.050s

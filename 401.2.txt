@@ -27,17 +27,17 @@ All Latencies Are Load-To-Use Latencies
 Opened Binary Trace File: ../traces/401.bzip2.out.trace.gz
 Opened Dep File: ../traces/401.bzip2.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 105737858  for App 0 at Time: 58646673
+[CMP$im] Finished Requested Instruction Count 105737858  for App 0 at Time: 59966887
 
 
 Full Run Summary: (Global Instructions: 105737858)
-	Thread ID: 0 ICOUNT: 105737858 CYC: 58646674 CPI: 0.554642 Global Cycles: 58646674 LLC Misses: 916877
+	Thread ID: 0 ICOUNT: 105737858 CYC: 59966888 CPI: 0.567128 Global Cycles: 59966888 LLC Misses: 843620
 
 
 Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 105737858 CYC: 58646673 CPI: 0.554642 Global Cycles: 58646674 LLC Misses: 916877
+	Thread ID: 0 ICOUNT: 105737858 CYC: 59966887 CPI: 0.567128 Global Cycles: 59966888 LLC Misses: 843620
 
 
-real	1m40.125s
-user	1m39.870s
-sys	0m0.030s
+real	1m36.603s
+user	1m36.250s
+sys	0m0.100s
