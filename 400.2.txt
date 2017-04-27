@@ -20,24 +20,10 @@ All Latencies Are Load-To-Use Latencies
 
 	[Level 1] MLC  Cache Size: 256KB  -*- Assoc: 8 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 10
 
-	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- True LRU -- -*- Lat: 30
+	[Level 2] LLC  Cache Size: 1024KB  -*- Assoc: 16 -*- TPC: 1 -*- RepPol: -- Contestant Replacement Policy -- -*- Lat: 30
 
 	[Level 3] MEM  Latency: 200
 
 Opened Binary Trace File: ../traces/400.perlbench.out.trace.gz
 Opened Dep File: ../traces/400.perlbench.out.dep.gz
 
-[CMP$im] Finished Requested Instruction Count 13796184  for App 0 at Time: 9328222
-
-
-Full Run Summary: (Global Instructions: 13796184)
-	Thread ID: 0 ICOUNT: 13796184 CYC: 9328223 CPI: 0.676145 Global Cycles: 9328223 LLC Misses: 23800
-
-
-Region of Interest Summary: 
-	Thread ID: 0 ICOUNT: 13796184 CYC: 9328222 CPI: 0.676145 Global Cycles: 9328223 LLC Misses: 23800
-
-
-real	0m12.758s
-user	0m12.700s
-sys	0m0.010s
